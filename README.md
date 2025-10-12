@@ -140,25 +140,10 @@ The warehouse schema is designed as a **star schema** optimized for song-play an
 
 - Build a cloud-based data warehouse using **Snowflake**.
 - Design an optimized **star schema** for analytical queries.
-- Develop **ETL pipelines** to automate extraction, transformation, and loading.
 - Understand **data modeling** and **metadata management** in cloud environments.
 
 ---
 
-## Getting Started
-
-### Prerequisites
-- Python 3.x
-- Snowflake account
-- AWS account (for S3 access)
-- Required Python packages (install via `requirements.txt`)
-
-### Setup
-1. Configure `dwh.cfg` with your Snowflake and AWS credentials.
-2. Run `create_tables.py` to set up the database schema.
-3. Run `etl.py` to execute the ETL pipeline.
-
----
 
 ## Project Assignment
 
